@@ -36,7 +36,7 @@ class CarsController < ApplicationController
             response +='"thumbnail":"'+car.thumbnail.to_s+'",'            
             response +='"price":"'+car.price.to_s+'",'
             response +='"type":"'+car.type.to_s+'",'                        
-            response +='"rental":{"id":'+car.rental_id.to_s+',"name":"'+car.name.to_s+'"}'         
+            response +='"rental":{"id":123456789,"name":"'+car.name.to_s+'"}'         
             response +='}'
             
             if cont<@cars.length
