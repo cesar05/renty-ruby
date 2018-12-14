@@ -29,8 +29,9 @@ group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platforms: [:mri, :mingw, :x64_mingw]
   gem 'json'
-   gem 'sqlite3'
-   gem 'httparty', '~> 0.16.3'
+  gem 'sqlite3'
+  gem 'httparty', '~> 0.16.3'
+  gem 'simplecov'
 end
 
 group :test do
